@@ -1,1 +1,237 @@
-/* You can add global styles to this file, and also import other style files */
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700;900&display=swap");
+
+.text-primary {
+  color: #f16f7e !important;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+  outline: none;
+  color: #444;
+}
+
+a:hover {
+  color: #444;
+}
+
+ul {
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+a:hover,
+a:focus,
+input,
+textarea {
+  text-decoration: none;
+  outline: none;
+}
+
+.center {
+  text-align: center;
+}
+
+.left {
+  text-align: left;
+}
+
+.right {
+  text-align: right;
+}
+
+html, body {
+  height: 100%;
+  font-family: "Nunito", sans-serif;
+}
+
+p {
+  margin-bottom: 0px;
+  width: 100%;
+}
+
+.no-padding {
+  padding: 0px;
+}
+
+.no-margin {
+  margin: 0px;
+}
+
+
+.top-mar {
+  margin-top: 15px;
+}
+
+.h-100 {
+  height: 100%;
+}
+
+
+.container-fluid {
+  padding: 0px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #545454;
+}
+
+body {
+  background-color: #f5f8fc !important;
+  color: #6A6A6A;
+  overflow-x: hidden;
+}
+
+.section-title {
+  padding: 30px;
+  margin: 0px;
+  margin-bottom: 20px;
+}
+
+.section-title h2 {
+  width: 100%;
+  text-align: center;
+  font-weight: 600;
+  margin-bottom: 0px;
+}
+.section-title p {
+  max-width: 850px;
+  text-align: center;
+  float: none;
+  margin: auto;
+  font-size: 0.9rem;
+  margin-top: 6px;
+}
+.section-title span {
+  float: right;
+  font-style: italic;
+}
+
+.btn-primary {
+  background-color: #f16f7e;
+  border-color: #f16f7e;
+}
+.btn-primary:hover {
+  background-color: #f16f7e !important;
+  border-color: #f16f7e !important;
+}
+.btn-primary:active {
+  background-color: #f16f7e !important;
+  border-color: #f16f7e !important;
+}
+.btn-primary:focus {
+  background-color: #f16f7e !important;
+  border-color: #f16f7e !important;
+  box-shadow: none !important;
+}
+
+.btn-outline-primary {
+  border-color: #f16f7e;
+  color: #f16f7e;
+}
+.btn-outline-primary:hover {
+  background-color: #f16f7e !important;
+  border-color: #f16f7e !important;
+}
+.btn-outline-primary:active {
+  background-color: #f16f7e !important;
+  border-color: #f16f7e !important;
+}
+.btn-outline-primary:focus {
+  background-color: #f16f7e !important;
+  border-color: #f16f7e !important;
+  box-shadow: none !important;
+}
+
+.fw-md {
+  font-weight: 600;
+}
+
+.fw-sm {
+  font-weight: 500;
+}
+
+.fw-bold {
+  font-weight: 600 !important;
+}
+
+.fs-11 {
+  font-size: 4rem;
+}
+
+
+.fs-7 {
+  font-size: 0.95rem;
+}
+
+.fs-8 {
+  font-size: 0.9rem;
+}
+
+
+.bg-gray {
+  background: rgba(217, 217, 217, 0.25);
+}
+
+.fs-9 {
+  font-size: 0.79rem;
+}
+
+.fs-55 {
+  font-size: 1.1rem;
+}
+
+.mt-25 {
+  margin-top: 11px;
+}
+
+.width-fit {
+  width: fit-content;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.max-width {
+  max-width: 40px;
+}
+
+.fw-bold {
+  font-weight: 700 !important;
+}
+
+.bg-honey {
+  background-color: #FFF4E6;
+}
+
+
+.fs-12 {
+  font-size: 5rem;
+}
+
+.carousel-caption {
+  right: 10%;
+  left: 10%;
+}
+
+.w-90 {
+  width: 90px;
+}
+
+.carousel-control-prev-icon {
+  background-color:grey;
+}
+
+.carousel-control-next-icon {
+  background-color:grey;
+}
